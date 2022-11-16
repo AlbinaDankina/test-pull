@@ -58,7 +58,7 @@
     "import/extensions": "off",
     "import/no-relative-packages": "off",
     "import/no-cycle": "off",
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", { "endOfLine":"auto" }],
     "linebreak-style": [0, "unix"],
     "quotes": ["error", "single"],
     "class-methods-use-this": "off",
